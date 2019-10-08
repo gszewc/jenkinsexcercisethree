@@ -32,9 +32,9 @@ public class AppTest
     {
         App.main(null);
         try {
-            Assert.assertEquals("Hello Word!" + System.getProperty("line.separator"), outContent.toString());
+            Assert.assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            Assert.fail("\"message\" is not \"Hello Wold!\"");
+            Assert.fail("\"message\" is not \"Hello World!\"");
         }
     }
 
